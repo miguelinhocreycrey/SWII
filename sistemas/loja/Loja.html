@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Loja.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="carrossel-container">
+    <div class="carrossel">
+        <img src="imgmiguel/images.jpg" alt="1">
+        <img src="imgmiguel/360_F_428769564_NB2T4JM9E2xsxFdXXwqW717HwgaZdpAq.jpg" alt="2">
+        <img src="imgmiguel/images (1).jpg" alt="3">
+    </div>
+    <button class="seta seta-anterior">&#10094;</button>
+    <button class="seta seta-proximo">&#10095;</button>
+</div>
+  
+  <h1>Catálogo de Produtos</h1>
+  
+    <div class="produtos-container">
+  
+      <!-- Produto 1 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/axis bold as love.jpg"></div>
+        <div class="descricao">Produto 1 - Descrição breve do item.</div>
+        <div class="preco">R$ 19,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+  
+      <!-- Produto 2 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/blaspheme.jpg"></div>
+        <div class="descricao">Produto 2 - Descrição breve do item.</div>
+        <div class="preco">R$ 29,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+  
+      <!-- Produto 3 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/born again.jpg"></div>
+        <div class="descricao">Produto 3 - Descrição breve do item.</div>
+        <div class="preco">R$ 39,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+  
+      <!-- Produto 4 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/dark side of the moon [.png"></div>
+        <div class="descricao">Produto 4 - Descrição breve do item.</div>
+        <div class="preco">R$ 49,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+  
+      <!-- Produto 5 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/defenders.jpg"></div>
+        <div class="descricao">Produto 5 - Descrição breve do item.</div>
+        <div class="preco">R$ 59,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 6 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/dio.jpg"></div>
+        <div class="descricao">Produto 6 - Descrição breve do item.</div>
+        <div class="preco">R$ 69,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 7 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/dynasty.jpg"></div>
+        <div class="descricao">Produto 7 - Descrição breve do item.</div>
+        <div class="preco">R$ 79,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 8 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/funkadelic.jpg"></div>
+        <div class="descricao">Produto 8 - Descrição breve do item.</div>
+        <div class="preco">R$ 89,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 9 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/kiss.jpg"></div>
+        <div class="descricao">Produto 9 - Descrição breve do item.</div>
+        <div class="preco">R$ 99,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 10 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/led 1.jpg"></div>
+        <div class="descricao">Produto 10 - Descrição breve do item.</div>
+        <div class="preco">R$ 100,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 11 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/painkiller.jpg"></div>
+        <div class="descricao">Produto 11 - Descrição breve do item.</div>
+        <div class="preco">R$ 111,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 12 -->
+      <div class="produto">
+        <div class="imagem-produto"><img src="imgmiguel/van halen.jpg"></div>
+        <div class="descricao">Produto 12 - Descrição breve do item.</div>
+        <div class="preco">R$ 122,90</div>
+        <button class="botao-carrinho">Adicionar ao Carrinho</button>
+      </div>
+  
+         <!-- Botão do carrinho -->
+    <button id="btn-carrinho" aria-label="Abrir carrinho">
+      🛒 <span id="contador-quantidade">0</span>
+  </button>
+
+  <!-- aba lateral -->
+
+  <aside id="carrinho-lateral" aria-label="Carrinho de Compras">
+      <h2>Seu Carrinho</h2>
+      <div id="itens-carrinho"></div>
+      <div id="total-carrinho">Total: R$ 0,00</div>
+      <button id="btn-finalizar">Finalizar Compra</button>
+  </aside>
+
+
+    </div>
+    <script src="Loja.js" defer></script>
+  </body>
+  
+  
+
+</html>
